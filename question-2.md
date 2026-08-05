@@ -12,7 +12,9 @@ or
     ```twig
         {% for post in posts %}
             <h2>{{ post.title }}</h2>
-            <p>{{ post.meta('job_title') }}</p>
+            {% if post.meta('job_title') %}
+                <p>{{ post.meta('job_title') }}</p>
+            {% endif %}
         {% endfor %}
     ```
 
