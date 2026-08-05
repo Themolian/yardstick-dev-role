@@ -7,7 +7,9 @@ This is just a little repo I've built to hold the answers to some of the questio
 ## Answers
 
 [Question 1 - Build Approach](./question-1.md)
+
 [Question 2 - Twig debugging](./question-2.md)
+
 [Question 3 - JavaScript Errors](./question-3.md)
 
 ### Bonus Question
