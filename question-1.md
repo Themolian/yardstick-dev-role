@@ -26,7 +26,7 @@ In ACF, the content model would look something like:
         2. **Scenario 2: The icon list is built first in the timeline block**
             - In the Banner block, I would set up a Clone field mapped to the Icon List field in the timeline block. Further down the line, if the client wanted changes made to the field, depending on the context, I would keep in mind that I may need to ask them if they wanted that change done to the icon list in the timeline as well, or whether the change they requested was just for the banner block. If the changes they requested were local to the banner block, I would probably convert the Icons List field into its own instance by duplicating the field from the timeline block and moving the duplicate to the banner block, making sure to rename it / rehandle it appropriately (if nothing else, to remove the (clone) part from the field title and handle)
 
-**Twig Code**
+**PHP / Twig Code**
 
 ```php
 <?php
